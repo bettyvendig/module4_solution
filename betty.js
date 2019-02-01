@@ -12,14 +12,14 @@
 	var speaker = {
 		
 		speak(name) {
-			alert("hello " + name);
+			console.log("hello " + name);
 		},
 		
 	};
 
 var speakerGoodbye = {
 	speakGoodbye(name) {
-		alert("good bye " + name);
+		console.log("good bye " + name);
 	}
 };
 
